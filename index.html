@@ -1,14 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
-    <title>Html練習室</title>
+    <title>主頁</title>
+
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/carousel.css" rel="stylesheet">
+
+    <link href="css/skill.css" rel="stylesheet">
+
+    <link href="css/Link.css" rel="stylesheet">
+
 </head>
-<body>
-<H1>主要是說</H1>
-<a href="AboutMe.html">關於我</a>
-<H1>作業</H1>
-<p>無聊中～～～～
-    <br>沒有任何事情</p>
+<body id="pagetop">
+<div class="nav-scroller py-1 mb-2">
+    <ul class="list">
+        <li class="list__item--yellow" ><a class="nav-link js-scroll-trigger" href="#pagetop">
+            <span>主頁</span>
+        </a>
+        </li>
+        <li class="list__item--blue">
+            <a class="nav-link js-scroll-trigger" href="#aboutme">
+            <span>關於我</span>
+            </a>
+        </li>
+        <li class="list__item--green">
+            <a class="nav-link js-scroll-trigger" href="#opus">
+            <span>作品</span>
+            </a>
+        </li>
+        <li class="list__item--red">
+            <a class="nav-link js-scroll-trigger" href="#contact">
+            <span>連結</span>
+            </a>
+        </li>
+    </ul>
+</div>
+
+<!-- 頁面內容-->
+<div class="container-fluid p-0">
+
+    <!-- 關於我-->
+    <section class="resume-section" id="aboutme">
+        <div class="resume-section-content">
+            <h2 class="mb-1">關於我</h2>
+            <p>我是李筠寧，來自南投縣。從小就接觸遊戲，非常喜歡遊戲中帶來的快樂。因此對於遊戲產業非常熱愛</p>
+        </div>
+        <ul id="skill">
+            <li><span class="bar graphic-design"></span><h3>Graphic Design</h3></li>
+            <li><span class="bar html-css"></span><h3>Html // Css</h3></li>
+            <li><span class="bar jquery"></span><h3>jQuery // MoTools</h3></li>
+            <li><span class="bar wordpress"></span><h3>Wordpress</h3></li>
+        </ul>
+
+    </section>
+    <!-- 作品-->
+    <section class="resume-section" id="opus">
+        <div class="resume-section-content">
+            <h2 class="mb-5">作品</h2>
+        </div>
+    </section>
+
+    <!-- 連結-->
+    <section class="resume-section" id="contact">
+        <div class="resume-section-content">
+    <a href="#" class="social-button social-button--facebook" aria-label="Facebook">
+        <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="#" class="social-button social-button--linkedin" aria-label="LinkedIn">
+        <i class="fab fa-linkedin-in"></i>
+    </a>
+    <a href="#" class="social-button social-button--snapchat" aria-label="Snapchat">
+        <i class="fab fa-snapchat-ghost"></i>
+    </a>
+    <a href="#" class="social-button social-button--github" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+    </a>
+        </div>
+    </section>>
+
+</div>
+
+
 </body>
 </html>
