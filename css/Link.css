@@ -73,6 +73,12 @@ body {
 .social-button--linkedin::after {
     background: #0077b5;
 }
+.social-button--youtube{
+    color: #e50812;
+}
+.social-button--youtube::after {
+    background: #e31b2b;
+}
 .social-button--github {
     color: #6e5494;
 }
@@ -101,6 +107,12 @@ body {
     color: #55acee;
 }
 .social-button--twitter::after {
+    background: #55acee;
+}
+.social-button--twitch {
+    color: #55acee;
+}
+.social-button--twitch::after {
     background: #55acee;
 }
 .social-button--instagram {
